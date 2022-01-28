@@ -1,0 +1,88 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lexend Mega', sans-serif;
+}
+
+body{
+    background-image: url(pexels-irina-iriser-1090977.jpg);
+    background-size:cover;
+    height: auto;
+    width: 100%;
+}
+
+
+img{
+    padding: 150px;
+    margin: auto;
+    display: block;
+
+}
+
+/* Navigation Bar Start*/
+
+#Project-Game{
+    font-family: 'Sriracha', cursive;
+    font-size: 30px;
+    list-style: none;
+}
+
+
+.navigation-bar{
+    list-style: none;
+    text-align: left;
+    line-height: 1.5;
+    display: block;
+}
+
+.navigation-bar ul{
+    display: inline-flex;
+    list-style: none;
+
+}
+
+.navigation-bar ul li{
+    padding: 20px;
+    width: auto;
+
+}
+
+.navigation-bar ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.navigation-bar ul li a:hover{
+    color: whitesmoke;
+}
+
+  
+
+/* Navigation Bar End*/
+
+
+.content-main{
+  background-color: lightgrey;
+  
+}
+
+.content-start{
+    text-align: center;
+    line-height: 2.2;
+}
+
+.content{
+    text-align: center;
+    color: white;
+}
+
+.social{
+    max-height: 20px;
+    max-width: 20px;
+    width: 10px;
+    height: 10px;
+    display: inline-flex;
+    background-size: 1px Auto;
+    visibility: hidden;
+}
